@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
   ToDoDatabase db = ToDoDatabase();
 
   //reference the box
-  final _myBox = Hive.box('To Do Box');
+  final _myBox = Hive.box('TODOLIST');
 
 
   @override

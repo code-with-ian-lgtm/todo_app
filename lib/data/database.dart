@@ -5,7 +5,7 @@ class ToDoDatabase {
   List toDoList = [];
 
   //reference hive
-  final _mybox = Hive.box("To Do Box");
+  final _mybox = Hive.box("TODOLIST");
 
   //run this method if this is the first time ever opening this app
   void createInitialData(){
